@@ -1219,6 +1219,9 @@
   .pt-\[50px\] {
     padding-top: 50px;
   }
+  .pt-\[200px\] {
+    padding-top: 200px;
+  }
   .pb-5 {
     padding-bottom: calc(var(--spacing) * 5);
   }
