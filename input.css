@@ -4,3 +4,15 @@
     --font-eb: "EB Garamond", serif;
     --font-roboto: "Roboto", sans-serif; 
 }
+module.exports = {
+    theme: {
+      extend: {
+        wordSpacing: {
+          '4': '1rem',
+          '8': '2rem',
+        },
+      },
+    },
+    plugins:[],
+  }
+  
