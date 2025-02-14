@@ -121,6 +121,7 @@
     <div>
     <div class="flex cursor-pointer  flex-row justify-between items-center">
         <div class="text-[#011f5b] font-eb text-[3.5rem]">News</div>
+        
     
         <div class="flex flex-row gap-x-11 justify-center items-center w-fit  mr-6">
             <div class="text-[#011f5b]  border-b-gray-400 border-b-1 text-lg">Topics</div>
@@ -213,17 +214,27 @@
                     TODAY</span>
             </div>
         </div>
-        <div class="mt-10 relative w-full h-screen flex items-center justify-center">
-            <img src="2hands.jpeg" alt=""> 
-        <div class="bg-[#011f5b]  mt-12 h-130 absolute  left-4 w-125 items-center justify-between  p-8 flex flex-col ">
-         <div class="text-white mt-4  font-roboto text-[0.9rem] px-7"> CAMPUS & COMMUNITY
-         </div>
-         <div class="font-eb text-[1.8rem]  mr-4 flex justify-center  text-white ">
-            Penn Center for Innovation celebrates  10 years
-         </div>
-         <div class="font-roboto  flex  justify-center text-white">
-            The University’s nexus for technology transfer supports researchers in their innovative efforts, from CAR T to mRNA advancements that have dramatically reshaped the world.
-</div>
+        <div id="innovationSection"
+        class="bg-[url(2hands.jpeg)] object-contain sm:h-[800px] w-full my-auto flex items-center pl-24">
+        <div id="innovationTopSection" class="w-fit p-2 bg-[#011f5b]">
+            <div id="InnovationTopSectionContentHolder"
+                class="border border-gray-500 text-white w-fit h-full flex flex-col justify-center items-center py-[100px] px-2 gap-y-[30px]">
+                <h3 class="font-roboto text-lg">Campus & Community</h3>
+                <a href="" class="font-eb text-4xl max-w-[32ch] text-center">Penn Center for Innovation
+                    celebrates 10
+                    years
+                </a>
+                <span class="w-[50px] h-[6px] bg-gray-400"></span>
+                <p class="max-w-[50ch]">
+                    The University’s nexus for technology transfer supports researchers in their innovative
+                    efforts, from CAR T to mRNA advancements that have dramatically reshaped the world.
+                </p>
+                <button class="py-3 px-5 rounded-4xl border border-gray-400 font-bold w-fit">
+                    LEARN MORE
+                </button>
+            </div>
+        </div>
+    </div>
         </div>
         </div>
         <div id="upcomingSection" class="bg-white min-h-[400px] pt-[50px]">
@@ -308,12 +319,51 @@
                 </div>
             </div>
         </div>
-    </div>
-
+   
        
     
 </div>
-</main>
+<div id="tabsSection" class="grid grid-cols-2 px-6 gap-x-12 bg-white w-full pt-12 pb-6">
+    <div class="tabGrid1">
+        <div id="tabsTopSection" class="w-fit p-2 bg-gray-100">
+            <div id="tabsSectionContentHolder"
+                class="border border-gray-300 text-[#011f5b] w-fit h-full flex flex-col justify-center items-center py-6 px-2 gap-y-10">
+                <div class="mx-20 flex flex-col items-center">
+                    <img src="inspiring.png" alt="">
+                    <span class="w-[50px] h-[6px] bg-gray-400"></span>
+                </div>
+                <p class="max-w-[50ch]">
+                    The University’s nexus for technology transfer supports researchers in their innovative
+                    efforts, from CAR T to mRNA advancements that have dramatically reshaped the world.
+                </p>
+                <button class="py-3 px-5 rounded-4xl border border-gray-400 font-bold w-fit">
+                    LEARN MORE
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="tabGrid2">
+        <div id="innovationTopSection" class="w-fit p-2 bg-[#011f5b]">
+            <div id="InnovationTopSectionContentHolder"
+                class="border border-gray-500 text-white w-fit h-full flex flex-col justify-center items-center px-2 gap-y-5 py-3">
+                <h3 class="font-roboto text-lg">Supporting Our Community</h3>
+                <a href="" class="font-eb text-4xl max-w-[32ch] text-center">Penn Center for Innovation
+                    celebrates 10
+                    years
+                </a>
+                <span class="w-[50px] h-[6px] bg-gray-400"></span>
+                <p class="max-w-[50ch]">
+                    The University’s nexus for technology transfer supports researchers in their innovative
+                    efforts, from CAR T to mRNA advancements that have dramatically reshaped the world.
+                </p>
+                <button class="py-3 px-5 rounded-4xl border border-gray-400 font-bold w-fit">
+                    LEARN MORE
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
     
     </div>
 
